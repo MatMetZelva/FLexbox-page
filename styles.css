@@ -90,3 +90,33 @@ img {
     margin: 60px auto;
 }
 
+.information .content p {
+    color: #757575;
+    font-size: 18px;
+    padding: 0;
+    margin: 8px;
+}
+
+.square {
+    width: 128px;
+    height: 128px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.onepart {
+    max-width: 192px;
+
+}
+
+
+
+/*testy*/
+.test {
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(233, 36, 36);
+}
