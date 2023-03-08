@@ -80,6 +80,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .information .title {
@@ -114,8 +115,45 @@ img {
 
 }
 
-.content {
+.information .content {
     display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/*quote*/
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.quote p {
+    color: #1F2937;
+    font-size: 34px;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+.quote div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    max-width: 750px;
+}
+
+#signature {
+    font-weight: 700;
+    font-size: 24px;
+    align-self: flex-end;
 }
 
 
