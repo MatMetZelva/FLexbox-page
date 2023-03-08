@@ -95,6 +95,7 @@ img {
     font-size: 18px;
     padding: 0;
     margin: 8px;
+    text-align: center;
 }
 
 .square {
@@ -107,11 +108,15 @@ img {
     margin: 0 auto;
 }
 
+
 .onepart {
-    max-width: 192px;
+    width: 192px;
 
 }
 
+.content {
+    display: flex;
+}
 
 
 /*testy*/
