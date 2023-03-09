@@ -170,11 +170,12 @@ img {
     border-radius: 7px;
     display: flex;
     align-items: center;
+    margin: 100px auto;
     
 }
 
 .signtext {
-    margin: 64px 150px;
+    margin: 40px 150px;
 }
 
 .signtext .H {
@@ -203,7 +204,22 @@ img {
     flex: 1;
 }
 
+/*footer*/
 
+.footer {
+    background-color: #1f2937;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    padding: 0;
+    margin:  35px 16px;
+    color: #E5E7EB;
+    font-size: 18px; 
+}
 
 
 /*testy*/
